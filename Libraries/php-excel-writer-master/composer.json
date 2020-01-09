@@ -1,0 +1,36 @@
+{
+    "name": "ellumilel/php-excel-writer",
+    "description": "Big data Excel writer with small memory consuming",
+    "keywords": [
+        "php-excel-writer",
+        "excel-downloader",
+        "excel-writer",
+        "excel",
+        "export",
+        "xlsx",
+        "spreadsheet",
+        "php-excel",
+        "big-data"
+    ],
+    "homepage": "https://github.com/Ellumilel/php-excel-writer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Tikhonov",
+            "email": "ozy@mailserver.ru",
+            "homepage": "https://github.com/Ellumilel/php-excel-writer",
+            "role": "Author"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "require": {
+        "php": "^5.4|^7.0"
+    },
+    "autoload": {
+        "psr-4": { "Ellumilel\\": "src/" }
+    },
+    "minimum-stability": "stable"
+}
